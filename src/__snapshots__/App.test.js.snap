@@ -3,16 +3,22 @@
 exports[`matches snapshot 1`] = `
 <div>
   <h1>
-     Posts 
+    Shows
   </h1>
-  <br />
-  <h3>
-     Click the below button to get all posts 
-  </h3>
-  <input
-    onClick={[Function]}
-    type="submit"
-    value="GET POSTS"
-  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Search shows
+    </button>
+  </form>
 </div>
 `;
